@@ -65,6 +65,13 @@ async function main() {
     text: "",
   });
   console.log(result.text);
+
+  // const fp = join(__dirname, "graph.png");
+  // const gr = await graph.getGraphAsync();
+  // const image = await gr.drawMermaidPng();
+  // const arrayBuffer = await image.arrayBuffer();
+  // const buffer = Buffer.from(arrayBuffer);
+  // writeFileSync(fp, buffer);
 }
 
 main().catch(console.error);
